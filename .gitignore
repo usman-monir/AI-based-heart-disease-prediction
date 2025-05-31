@@ -1,0 +1,16 @@
+# Ignore virtual environment directory
+.venv/
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore editor swap files
+*~
+
+# Ignore build directories
+__pycache__/
+build/
+dist/
+
+# Ignore dataset file (if you don't want to track it in Git)
+# Heart_disease_cleveland_new.csv 
