@@ -11,7 +11,7 @@ from chatbot import initialize_chat_history, display_fullpage_chat
 # Set page config
 st.set_page_config(
     page_title="Heart Disease Prediction Dashboard",
-    page_icon="❤️",
+    page_icon="🫀",
     layout="wide"
 )
 
