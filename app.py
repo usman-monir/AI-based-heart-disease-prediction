@@ -15,6 +15,16 @@ st.set_page_config(
     layout="wide"
 )
 
+# Add CSS to hide Streamlit header, footer, and main menu
+hide_st_style = """
+<style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+</style>
+"""
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
 # Initialize chat history
 initialize_chat_history()
 
