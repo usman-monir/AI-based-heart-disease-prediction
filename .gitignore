@@ -15,3 +15,6 @@ dist/
 # Ignore dataset file (if you don't want to track it in Git)
 # Heart_disease_cleveland_new.csv 
 .DS_Store
+./DS_Store
+*/DS_Store
+/DS_Store*
