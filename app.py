@@ -21,7 +21,8 @@ hide_st_style = """
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
 header {visibility: hidden;}
-._profileContainer_gzau3_53 {display: none;}
+[class^="_profilePreview_gzau3_"] {display: none !important;}
+[class^="_profileContainer_gzau3_"] {display: none !important;}
 </style>
 """
 st.markdown(hide_st_style, unsafe_allow_html=True)
