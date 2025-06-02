@@ -15,12 +15,13 @@ st.set_page_config(
     layout="wide"
 )
 
-# Add CSS to hide Streamlit header, footer, and main menu
+# Add CSS to hide Streamlit header, footer, main menu, and owner information
 hide_st_style = """
 <style>
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
 header {visibility: hidden;}
+._profileContainer_gzau3_53 {display: none;}
 </style>
 """
 st.markdown(hide_st_style, unsafe_allow_html=True)
